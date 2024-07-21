@@ -1,0 +1,32 @@
+class GreatestNum
+{
+    public static void main(String[] args)
+    {
+        int p,q,r,s,t;
+        p=19;
+        q=21;
+        r=17;
+        s=27;
+        t=53;
+        if(p>q && p>r && p>s && p>t)
+        {
+            System.out.println("p is greater");
+        }
+        else if(q>r && q>s && q>t)
+        {
+            System.out.println("q is greater");
+        }
+        else if(r>s && r>t)
+        {
+            System.out.println("r is greater");
+        }
+        else if(s>o)
+        {
+            System.out.println("s is greater");
+        }
+        else
+        {
+            System.out.println("t is greater");
+        }
+    }
+}
